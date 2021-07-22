@@ -20,7 +20,7 @@ refresh() {
     git checkout -b $PR_BRANCH
     go env -w GOPRIVATE=kubeform.dev/*
     go mod edit \
-        -require=kubeform.dev/generator-v2@v0.0.12
+        -require=kubeform.dev/generator-v2@v0.0.13
     go mod tidy
     go mod vendor
     [ -z "$2" ] || (
