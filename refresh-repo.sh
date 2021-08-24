@@ -30,6 +30,7 @@ refresh() {
     fi
     go mod tidy
     go mod vendor
+    sed -i 's|kmodules.xyz/client-go@13d22e91512b80f1ac6cbb4452c3be73e7a21b88|kmodules.xyz/client-go@5e9cebbf1dfa80943ecb52b43686b48ba5df8363|g' hack/scripts/generate.sh
     [ -z "$2" ] || (
         echo "$2"
         $2 || true
