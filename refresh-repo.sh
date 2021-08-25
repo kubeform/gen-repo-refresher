@@ -22,11 +22,11 @@ refresh() {
     # ref: https://stackoverflow.com/a/11287896
     if grep -q generator-v1 go.mod; then
         go mod edit \
-            -require=kubeform.dev/generator-v1@v0.0.6
+            -require=kubeform.dev/generator-v1@v0.0.7
     fi
     if grep -q generator-v2 go.mod; then
         go mod edit \
-            -require=kubeform.dev/generator-v2@v0.0.21
+            -require=kubeform.dev/generator-v2@v0.0.22
     fi
     go mod tidy
     go mod vendor
