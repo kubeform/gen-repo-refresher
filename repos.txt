@@ -1,24 +1,24 @@
-github.com/kubeform/provider-alicloud-gen
-github.com/kubeform/provider-aws-gen
-github.com/kubeform/provider-azurerm-gen
-github.com/kubeform/provider-civo-gen
-github.com/kubeform/provider-datadog-gen
-github.com/kubeform/provider-digitalocean-gen
-github.com/kubeform/provider-dynatrace-gen
-github.com/kubeform/provider-ec-gen
-github.com/kubeform/provider-equinixmetal-gen
-github.com/kubeform/provider-google-gen
-github.com/kubeform/provider-grafana-gen
-github.com/kubeform/provider-hcloud-gen
-github.com/kubeform/provider-ibm-gen
-github.com/kubeform/provider-linode-gen
-github.com/kubeform/provider-mongodbatlas-gen
-github.com/kubeform/provider-newrelic-gen
-github.com/kubeform/provider-oci-gen
-github.com/kubeform/provider-ovh-gen
-github.com/kubeform/provider-pagerduty-gen
-github.com/kubeform/provider-rediscloud-gen
-github.com/kubeform/provider-upcloud-gen
-github.com/kubeform/provider-vsphere-gen
-github.com/kubeform/provider-vultr-gen
-github.com/kubeform/provider-wavefront-gen
+github.com/kubeform/provider-alicloud-gen github.com/aliyun/terraform-provider-alicloud@v1.128.0
+github.com/kubeform/provider-aws-gen github.com/terraform-providers/terraform-provider-aws@v1.60.1-0.20210624223533-7ed5f82d440d
+github.com/kubeform/provider-azurerm-gen github.com/terraform-providers/terraform-provider-azurerm@v1.44.1-0.20210702030130-ff3fb4ec388d
+github.com/kubeform/provider-civo-gen github.com/civo/terraform-provider-civo@v0.10.9
+github.com/kubeform/provider-datadog-gen github.com/terraform-providers/terraform-provider-datadog=github.com/DataDog/terraform-provider-datadog@v1.9.1-0.20210714133156-141501334a01
+github.com/kubeform/provider-digitalocean-gen github.com/digitalocean/terraform-provider-digitalocean@v1.23.1-0.20210629201646-266cb440f82b
+github.com/kubeform/provider-dynatrace-gen github.com/dynatrace-oss/terraform-provider-dynatrace@v1.6.1
+github.com/kubeform/provider-ec-gen github.com/elastic/terraform-provider-ec@v0.2.1
+github.com/kubeform/provider-equinixmetal-gen github.com/equinix/terraform-provider-metal@v1.1.1-0.20210727130052-a55db9bd1897
+github.com/kubeform/provider-google-gen github.com/hashicorp/terraform-provider-google@v1.20.1-0.20210628164239-4d5f8365936e
+github.com/kubeform/provider-grafana-gen github.com/grafana/terraform-provider-grafana@v1.13.3
+github.com/kubeform/provider-hcloud-gen github.com/hetznercloud/terraform-provider-hcloud=github.com/kubeform/terraform-provider-hcloud@v1.27.3-0.20210730143039-29d7eec9c077
+github.com/kubeform/provider-ibm-gen github.com/softlayer/softlayer-go@v1.0.3=github.com/IBM-Cloud/softlayer-go@v1.0.3-tf
+github.com/kubeform/provider-linode-gen github.com/linode/terraform-provider-linode@v1.22.0
+github.com/kubeform/provider-mongodbatlas-gen github.com/mongodb/terraform-provider-mongodbatlas@v0.9.2-0.20210729194514-c828847c5c7b
+github.com/kubeform/provider-newrelic-gen github.com/newrelic/terraform-provider-newrelic/v2@v2.24.1
+github.com/kubeform/provider-oci-gen github.com/hashicorp/terraform-plugin-sdk@v1.17.2
+github.com/kubeform/provider-ovh-gen github.com/ovh/terraform-provider-ovh@v0.15.0
+github.com/kubeform/provider-pagerduty-gen github.com/terraform-providers/terraform-provider-pagerduty=github.com/PagerDuty/terraform-provider-pagerduty@v1.10.0
+github.com/kubeform/provider-rediscloud-gen github.com/RedisLabs/terraform-provider-rediscloud=github.com/kubeform/terraform-provider-rediscloud@v0.2.5-0.20210730144149-20f14a5c8cdc
+github.com/kubeform/provider-upcloud-gen github.com/UpCloudLtd/terraform-provider-upcloud@v0.0.0-20210622112225-b693562639e1
+github.com/kubeform/provider-vsphere-gen github.com/hashicorp/terraform-provider-vsphere@v1.26.1-0.20210625182906-b8206ea7fc5a
+github.com/kubeform/provider-vultr-gen github.com/vultr/terraform-provider-vultr@v1.3.4-0.20210625135956-5cdfa3b5e742
+github.com/kubeform/provider-wavefront-gen github.com/vmware/terraform-provider-wavefront@v0.0.0-20210610195536-769fabacff12
