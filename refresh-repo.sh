@@ -22,14 +22,15 @@ refresh() {
     # ref: https://stackoverflow.com/a/11287896
     if grep -q generator-v1 go.mod; then
         go mod edit \
-            -require=kubeform.dev/generator-v1@v0.0.8
+            -require=kubeform.dev/generator-v1@v0.0.9
     fi
     if grep -q generator-v2 go.mod; then
         go mod edit \
-            -require=kubeform.dev/generator-v2@v0.0.23
+            -require=kubeform.dev/generator-v2@v0.0.24
     fi
     go mod tidy
     go mod vendor
+    sed -i 'N;s|make gen-controllers\ngo mod edit \\|make gen-controllers \ngo mod edit \\\n    -replace=google.golang.org/api=google.golang.org/api@v0.59.0 \\|g' hack/scripts/generate.sh
     sed -i 's|kmodules.xyz/client-go@13d22e91512b80f1ac6cbb4452c3be73e7a21b88|kmodules.xyz/client-go@5e9cebbf1dfa80943ecb52b43686b48ba5df8363|g' hack/scripts/generate.sh
     sed -i 's|kubeform.dev/apimachinery@7bcd34a30eb5956ae85815ea522e58b0c85db48e|kubeform.dev/apimachinery@ba5604d5a1ccd6ea2c07c6457c8b03f11ab00f63|g' hack/scripts/generate.sh
     [ -z "$2" ] || (
