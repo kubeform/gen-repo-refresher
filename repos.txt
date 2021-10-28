@@ -3,7 +3,7 @@ github.com/kubeform/provider-aws-gen github.com/terraform-providers/terraform-pr
 github.com/kubeform/provider-azurerm-gen github.com/terraform-providers/terraform-provider-azurerm@v1.44.1-0.20210702030130-ff3fb4ec388d
 github.com/kubeform/provider-civo-gen github.com/civo/terraform-provider-civo@v0.10.9
 github.com/kubeform/provider-datadog-gen github.com/terraform-providers/terraform-provider-datadog=github.com/DataDog/terraform-provider-datadog@v1.9.1-0.20210714133156-141501334a01
-github.com/kubeform/provider-digitalocean-gen github.com/digitalocean/terraform-provider-digitalocean@v1.23.1-0.20210629201646-266cb440f82b
+github.com/kubeform/provider-digitalocean-gen github.com/digitalocean/terraform-provider-digitalocean@c159b013338b98124b1aa33b08e3ab5d90e1702b
 github.com/kubeform/provider-dynatrace-gen github.com/dynatrace-oss/terraform-provider-dynatrace@v1.6.1
 github.com/kubeform/provider-ec-gen github.com/elastic/terraform-provider-ec@v0.2.1
 github.com/kubeform/provider-equinixmetal-gen github.com/equinix/terraform-provider-metal@v1.1.1-0.20210727130052-a55db9bd1897
