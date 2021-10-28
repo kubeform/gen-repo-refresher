@@ -22,11 +22,11 @@ refresh() {
     # ref: https://stackoverflow.com/a/11287896
     if grep -q generator-v1 go.mod; then
         go mod edit \
-            -require=kubeform.dev/generator-v1@v0.0.10
+            -require=kubeform.dev/generator-v1@v0.0.11
     fi
     if grep -q generator-v2 go.mod; then
         go mod edit \
-            -require=kubeform.dev/generator-v2@v0.0.25
+            -require=kubeform.dev/generator-v2@v0.0.26
     fi
 
     if [[ $2 == *"="* ]]; then
@@ -37,6 +37,7 @@ refresh() {
 
     go mod tidy
     go mod vendor
+    sed -i 'N;s|go mod edit \\\n    -dropreplace=google.golang.org/api \\|go mod edit \\\n    -require=go.bytebuilders.dev/audit@v0.0.11 \\\n    -dropreplace=google.golang.org/api \\|g' hack/scripts/generate.sh
     # sed -i 'N;s|go mod edit \\\n    -replace=google.golang.org/api=google.golang.org/api@v0.59.0 \\|go mod edit \\\n    -replace=google.golang.org/api=google.golang.org/api@v0.59.0 \\\n    -dropreplace=github.com/Azure/azure-sdk-for-go \\|g' hack/scripts/generate.sh
     # sed -i 'N;s|go mod edit \\\n    -replace=google.golang.org/api=google.golang.org/api@v0.59.0 \\|go mod edit \\\n    -replace=google.golang.org/api=google.golang.org/api@v0.59.0 \\\n    -dropreplace=github.com/Azure/go-autorest \\|g' hack/scripts/generate.sh
     # sed -i 'N;s|go mod edit \\\n    -replace=google.golang.org/api=google.golang.org/api@v0.59.0 \\|go mod edit \\\n    -replace=google.golang.org/api=google.golang.org/api@v0.59.0 \\\n    -dropreplace=github.com/Azure/go-autorest/autorest \\|g' hack/scripts/generate.sh
