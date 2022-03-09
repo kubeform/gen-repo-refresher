@@ -1,6 +1,6 @@
 github.com/kubeform/provider-alicloud-gen github.com/aliyun/terraform-provider-alicloud@v1.159.0
-github.com/kubeform/provider-aws-gen github.com/terraform-providers/terraform-provider-aws=github.com/kubeform/terraform-provider-aws@09b3e222c6f15629205ff9a927fe5c90c58aadf5
-github.com/kubeform/provider-azurerm-gen github.com/terraform-providers/terraform-provider-azurerm=github.com/kubeform/terraform-provider-azurerm@7d3fbd3e8f524ddc081d1d78d0aea3a0e85b5bbe
+github.com/kubeform/provider-aws-gen github.com/hashicorp/terraform-provider-aws=github.com/kubeform/terraform-provider-aws@09b3e222c6f15629205ff9a927fe5c90c58aadf5
+github.com/kubeform/provider-azurerm-gen github.com/hashicorp/terraform-provider-azurerm=github.com/kubeform/terraform-provider-azurerm@7d3fbd3e8f524ddc081d1d78d0aea3a0e85b5bbe
 github.com/kubeform/provider-civo-gen github.com/civo/terraform-provider-civo@v1.0.13
 github.com/kubeform/provider-datadog-gen github.com/terraform-providers/terraform-provider-datadog=github.com/DataDog/terraform-provider-datadog@176ccf7660d9086252b384fa09c39733cc0f8c0f
 github.com/kubeform/provider-digitalocean-gen github.com/digitalocean/terraform-provider-digitalocean@885dabcc14b0db27b85e1bbf1350d0f4d7362b86
