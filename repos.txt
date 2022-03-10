@@ -14,7 +14,7 @@ github.com/kubeform/provider-ibm-gen github.com/softlayer/softlayer-go@v1.0.3=gi
 github.com/kubeform/provider-linode-gen github.com/linode/terraform-provider-linode@v1.25.2
 github.com/kubeform/provider-mongodbatlas-gen github.com/mongodb/terraform-provider-mongodbatlas@v1.3.0
 github.com/kubeform/provider-newrelic-gen github.com/newrelic/terraform-provider-newrelic/v2@v2.39.1
-github.com/kubeform/provider-oci-gen github.com/terraform-providers/terraform-provider-oci=github.com/kubeform/terraform-provider-oci@db512853402fad45201b968940ec5f06e00a4601
+github.com/kubeform/provider-oci-gen github.com/terraform-providers/terraform-provider-oci=github.com/kubeform/terraform-provider-oci@b6389c94b828e0c51c603a10b3d1bd6bf6f21f05
 github.com/kubeform/provider-ovh-gen github.com/ovh/terraform-provider-ovh@v0.16.0
 github.com/kubeform/provider-pagerduty-gen github.com/terraform-providers/terraform-provider-pagerduty=github.com/PagerDuty/terraform-provider-pagerduty@1fc5d88a276e8cf8e40257c559d94a2d07681bce
 github.com/kubeform/provider-rediscloud-gen github.com/RedisLabs/terraform-provider-rediscloud=github.com/kubeform/terraform-provider-rediscloud@c24fba3610ac76a5f310f8afdece44c26e7d49a1
