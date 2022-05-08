@@ -36,6 +36,10 @@ refresh() {
         sed -i "s|go 1.16|go 1.17|g" go.mod
         go get github.com/modern-go/reflect2@v1.0.2
         go get github.com/json-iterator/go@v1.1.12
+        go get go.bytebuilders.dev/audit@v0.0.20
+        go get go.bytebuilders.dev/license-verifier v0.9.7
+        go get go.bytebuilders.dev/license-verifier/kubernetes v0.9.7
+        go get gomodules.xyz/logs v0.0.6
         go mod tidy
         go mod vendor
     fi
